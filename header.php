@@ -37,7 +37,7 @@
 	<div class="off-canvas-wrap" data-offcanvas>
 	<div class="inner-wrap">
 	
-	<?php do_action('foundationPress_layout_start'); ?>
+	<?php do_action('foundationPress_layout_start'); ?> 
 	
 	<nav class="tab-bar show-for-small-only">
 		<section class="left-small">
@@ -45,7 +45,13 @@
 		</section>
 		<section class="middle tab-bar-section">
 			
-			<h1 class="title"><?php bloginfo( 'name' ); ?></h1>
+		<?php if ( get_theme_mod( 'themeslug_logo' ) ) : ?>
+        <div class='site-logo'>
+                <a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><img src='<?php echo esc_url( get_theme_mod( 'themeslug_logo' ) ); ?>' alt='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>'></a>
+        </div>
+        <?php else : ?>
+    	<h1 class="title"><?php bloginfo( 'name' ); ?></h1>
+        <?php endif; ?>
 
 		</section>
 	</nav>
