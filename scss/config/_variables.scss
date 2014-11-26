@@ -3,8 +3,23 @@
  * ----------------------------------------------------------------------------
  */
 
+/* Header */
+.site-logo 
+{
+    
+    margin: 15px 40px;
+
+}
+
+
 /* TOP NAVIGATION */
 
-$orange : #F5911E;
-$topbar-bg-color: $orange;
-$topbar-title-font-size: rem-calc(20);
+$orange : #cccccc;
+$topbar-bg-color: $orange; 
+$topbar-title-font-size: rem-calc(40);
+
+/* Grid */
+$row-width: rem-calc(1000); 
+
+
+
