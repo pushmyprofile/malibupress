@@ -3,6 +3,21 @@
  * ----------------------------------------------------------------------------
  */
 
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
+$font-nav: 'Roboto', sans-serif;
+
+// We use these to control various global styles
+// $body-bg: $white;
+// $body-font-color: $jet;
+$body-font-family: 'Roboto', sans-serif;
+// $body-font-weight: $font-weight-normal;
+// $body-font-style: normal;
+
+
+$header-font-family: $body-font-family;
+
 /* Header */
 .site-logo 
 {
@@ -17,9 +32,29 @@
 $orange : #cccccc;
 $topbar-bg-color: $orange; 
 $topbar-title-font-size: rem-calc(40);
+$topbar-margin-bottom: 0;
+$topbar-link-font-family: $body-font-family;
+$topbar-link-font-size: rem-calc(16);
 
-/* Grid */
-$row-width: rem-calc(1000); 
+.contain-to-grid .top-bar {
+    margin: 0;
+    z-index: 1;
+}
+
+.top-bar-container, .tab-bar
+{
+    
+ margin-bottom:0 !important;   
+    
+}
+.ms-view
+{
+ 
+    overflow: none !important;  
+    
+}
+
+
 
 
 
