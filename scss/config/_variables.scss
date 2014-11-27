@@ -2,21 +2,32 @@
  * Custom variables
  * ----------------------------------------------------------------------------
  */
+@import 'settings';
+
 
 /* FONTS */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,300,600);
 
 $font-nav: 'Roboto', sans-serif;
+$font-header: 'Dosis', sans-serif;
 
-// We use these to control various global styles
-// $body-bg: $white;
-// $body-font-color: $jet;
 $body-font-family: 'Roboto', sans-serif;
-// $body-font-weight: $font-weight-normal;
-// $body-font-style: normal;
+
+/* TYPOGRAHPY */
+$header-font-family: $font-header;
+
+h2
+{
+ 
+  text-align:center;
+  border-bottom:4px solid #82B3CC; 
+  padding-bottom:15px;
+  font-weight:lighter;
+    
+}
 
 
-$header-font-family: $body-font-family;
 
 /* Header */
 .site-logo 
@@ -29,17 +40,73 @@ $header-font-family: $body-font-family;
 
 /* TOP NAVIGATION */
 
-$orange : #cccccc;
+$orange : #F7993D;
+$transparent:rgba(0,0,0,0.0);
+$lightblue: #82B2CB;
+
 $topbar-bg-color: $orange; 
 $topbar-title-font-size: rem-calc(40);
 $topbar-margin-bottom: 0;
 $topbar-link-font-family: $body-font-family;
 $topbar-link-font-size: rem-calc(16);
+$topbar-bg-color: $transparent;
+
+
+$topbar-bg: $transparent;
+$topbar-dropdown-bg: $transparent;
+
+$topbar-dropdown-bg: none;       // Make this none
+$topbar-dropdown-link-bg: none;   // Make this none
+$topbar-link-hover-lightness: -10% ; // Darken by 10%
+$topbar-link-bg: none; // Make this none
+$topbar-link-bg-hover: $orange; // Make this none
+$topbar-link-bg-active: none; // Make this none
+$topbar-link-bg-active-hover: none; // Make this none
+$topbar-dropdown-label-bg: none; // Make this none
+
+
+// Divider Styles
+$topbar-divider-border-bottom: solid 2px  scale-color($lightblue, $lightness: 100%);
+$topbar-divider-border-top: solid 2px scale-color($lightblue, $lightness: -50%);
+
+/* MOBILE MENU */
+
+$tabbar-bg: $transparent !default;
+
+
+.tab-bar {
+    margin: 0;
+    z-index: 1;
+}
+
+.tab-bar .menu-icon
+{
+ 
+    top:20px;
+    left:20px;
+    position:relative;
+}
+
+
+
+
+.top-bar-menu.right
+{
+ 
+margin-top:33px;    
+    
+}
+
+.top-bar {
+  background-color: rgba(0,0,0,0.9);
+}
+
 
 .contain-to-grid .top-bar {
     margin: 0;
     z-index: 1;
 }
+
 
 .top-bar-container, .tab-bar
 {
@@ -47,12 +114,46 @@ $topbar-link-font-size: rem-calc(16);
  margin-bottom:0 !important;   
     
 }
-.ms-view
+
+/* SLIDER */
+
+
+.master-slider h1, .master-slider h2, .master-slider h3, .master-slider h4
 {
- 
-    overflow: none !important;  
+    
+    color: #fff !important;
     
 }
+
+
+.master-slider
+{
+ 
+    position:relative !important;
+    
+    top:-60px;
+    
+}
+
+.ms-default-btn {
+    background: none repeat scroll 0 0 #82B3CC !important;
+    border-radius: 5px;
+    color: #fff;
+}
+
+@media #{$small-only} 
+{ 
+
+    .master-slider h1, .master-slider h2, .master-slider h3, .master-slider h4
+{
+ 
+    font-size:1.2rem;
+    
+}
+
+
+}
+
 
 
 
