@@ -254,10 +254,10 @@ $include-html-global-classes: $include-html-classes;
 // $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
 
 // We use these to style the <hr> element
-// $hr-border-width: 1px;
-// $hr-border-style: solid;
-// $hr-border-color: $gainsboro;
-// $hr-margin: rem-calc(20);
+   $hr-border-width: 1px;
+   $hr-border-style: solid;  
+   $hr-border-color: $white;
+   $hr-margin: rem-calc(50);
 
 // We use these to style lists
 // $list-font-family: $paragraph-font-family;
@@ -413,7 +413,7 @@ $include-html-global-classes: $include-html-classes;
 // 05. Buttons
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// $include-html-button-classes: $include-html-classes;
+$include-html-button-classes: $include-html-classes; 
 
 // We use these to build padding for buttons.
 // $button-tny: rem-calc(10);
@@ -442,7 +442,7 @@ $include-html-global-classes: $include-html-classes;
 // We use these to control button border and hover styles.
 // $button-border-width: 0px;
 // $button-border-style: solid;
-// $button-bg-color: $primary-color;
+ //   $button-bg-color: $orange;
 // $button-bg-hover: scale-color($button-bg-color, $lightness: $button-function-factor);
 // $button-border-color: $button-bg-hover;
 // $secondary-button-bg-hover: scale-color($secondary-color, $lightness: $button-function-factor);
