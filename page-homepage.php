@@ -3,7 +3,10 @@
 Template Name: Homepage
 */
 get_header(); ?>
+
 <?php masterslider(2); ?>
+
+
 <div class="row">
 	<div class="small-12 large-12 columns" role="main">
 
@@ -26,5 +29,6 @@ get_header(); ?>
 
 	</div>
 </div>
+
 
 <?php get_footer(); ?>
