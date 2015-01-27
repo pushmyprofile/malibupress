@@ -1,0 +1,9 @@
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary
+
+{
+ 
+    width:100% !important;
+    
+    float:none !important!;
+    
+}

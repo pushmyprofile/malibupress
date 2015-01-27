@@ -360,6 +360,33 @@ footer#site-footer a, footer#site-footer p, footer#site-footer h1, footer#site-f
 }
 
 
+/* Woo Commerce */
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary
+
+{
+ 
+    width:100% !important;
+    
+    float:none !important;
+    
+}
+
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images
+{
+ 
+    width:100% !important;
+    
+}
+
+.top-bar-container
+{
+ 
+     background: url("/wp-content/uploads/2014/11/slide11-1000x580.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    height: 110px;
+    
+}
+
+
 
 
 
