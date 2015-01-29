@@ -14,6 +14,15 @@ get_header(); ?>
 			</header>
 			<div class="entry-content">
 				<?php the_content(); ?>
+                  <div class="row border-row orange">  
+      <div class="small-12 large-8 columns orange">
+<h2>Have you any Questions?</h2>
+      </div>
+      <div class="small-12 large-4 columns orange">
+<a class="button" href="contact-us/">Get In Touch</a>
+      </div>
+			</div>
+			</div>
 			</div>
 			<footer>
 				<?php wp_link_pages(array('before' => '<nav id="page-nav"><p>' . __('Pages:', 'FoundationPress'), 'after' => '</p></nav>' )); ?>

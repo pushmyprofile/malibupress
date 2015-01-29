@@ -1,3 +1,4 @@
+<div class="content-page">
 <?php get_header(); ?>
 
 <div class="row">

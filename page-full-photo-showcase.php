@@ -4,7 +4,7 @@ Template Name: Photo Showcase
 */?>
 <div class="content-page"> <?php
 get_header(); ?>
-</div>
+
 <div class="row">
 	<div class="small-12 large-12 columns" role="main">
 

@@ -1,14 +1,5 @@
 </section>
-<div class="sub-footer">
-  <div class="row">  
-      <div class="small-12 large-8 columns">
-<h2>Have you Questions? Need More Information?</h2>
-      </div>
-      <div class="small-12 large-4 columns">
-<a class="button large round" href="contact-us/">Get In Touch</a>
-      </div>
-</div>
-    </div>
+
 <footer id="site-footer">
     <div class="row">
 	<?php do_action('foundationPress_before_footer'); ?>
